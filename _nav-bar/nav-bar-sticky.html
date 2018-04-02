@@ -26,12 +26,24 @@
         }
 
         main {
-            width: 90%;
+            width: 80%;
             margin: 4em auto;
             font-size: 20px;
             line-height: 30px;
             text-align: justify;
         }
+
+ .header-menu {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: #224036;
+    }
+
+    nav {
+        width: 82%;
+        margin: 0 auto;
+    }
 
      ul.logos {
         position: fixed;
@@ -73,12 +85,6 @@
         text-align: center;
     }
 
-    nav {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        background: #224036;
-    }
 
     nav ul {
         list-style: none;
@@ -98,12 +104,17 @@
     nav ul li {
         display: inline-block;
         padding: 20px;
+       /* border-right: 1px solid #fff;*/
     }
+
+    /*nav ul li:last-child {
+        border-right: none;
+    }*/
 
     nav ul li a {
         text-decoration: none;
         color: #ffffff;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .menu-icon {
@@ -170,38 +181,40 @@
 <body>
     <div class="wrapper">
         <header>
-            <nav>
-                <div class="menu-icon"><i class="fa fa-bars fa-2x"></i></div>
-                <ul class="logos">
-                    <li class="logo text-center">
-                        <a href="#" title="Cochabanner Bolivia">
-                            <strong>Cochabanner</strong>
-                            <br>Bolivia</a>
-                    </li>
-                    <li class="mobileHide">by</li>
-                    <li class="mobileHide">
-                        <a href="https://projects-abroad.co.uk" title="Project Abroad">
-                            <img src="images/_global/logo-projects-abroad.png" title="Project Abroad" alt="Project Abroad" width="80%">
-                        </a>
-                    </li>
-                </ul>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="#" title="Home">Home</a>
+            <div class="header-menu">
+                <nav>
+                    <div class="menu-icon"><i class="fa fa-bars fa-2x"></i></div>
+                    <ul class="logos">
+                        <li class="logo text-center">
+                            <a href="#" title="Cochabanner Bolivia">
+                                <strong>Cochabanner</strong>
+                                <br>Bolivia</a>
                         </li>
-                        <li>
-                            <a href="#" title="About us">About us</a>
-                        </li>
-                        <li>
-                            <a href="#" title="Past Edisions">Past Edisions</a>
-                        </li>
-                        <li>
-                            <a href="#" title="Contact us">Contact us</a>
+                        <li class="mobileHide">by</li>
+                        <li class="mobileHide">
+                            <a href="https://projects-abroad.co.uk" title="Project Abroad">
+                                <img src="images/_global/logo-projects-abroad.png" title="Project Abroad" alt="Project Abroad" width="80%">
+                            </a>
                         </li>
                     </ul>
-                </div>
-            </nav>
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <a href="#" title="Home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" title="About us">About us</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Past Edisions">Past Edisions</a>
+                            </li>
+                            <li>
+                                <a href="#" title="Contact us">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </header>
         <main>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
@@ -210,7 +223,7 @@
             was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
             desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         </main>
-
+    </div>
         <script type="text/javascript">
 
         //menu toggle-button
@@ -235,7 +248,7 @@
 
         </script>
 
-    </div>
+
     
 </body>
 </html>
