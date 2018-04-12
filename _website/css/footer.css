@@ -1,0 +1,73 @@
+@import 'fonts.css';
+
+footer {
+    font: 1em/1.5em 'Open Sans';
+    background: rgb(34, 64, 54, 0.7);
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.footer__menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer__menu a:hover {
+    color: #E2A227;
+}
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+    nav > ul {
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 1em 0;
+    }
+}
+
+.list-item {
+    padding: 1.2em 0;
+}
+@media screen and (max-width: 768px) {
+    .list-item {
+        padding: 0.5em 0;
+        border-bottom: 1px solid  rgb(34, 64, 54);
+    }
+}
+
+.list-item a {
+    padding: 0 1.2em;
+    line-height: 1.2;
+    border-right: 1px solid #ffffff;
+}
+@media screen and (max-width: 768px) {
+    .list-item a {
+        border-right: none;
+    }
+}
+
+
+.list-item:last-child a {
+    border-right: none;
+}
+.list-item:last-child {
+    border-bottom: none;
+}
+
+
+.footer__copyright {
+    font: 14px/20px 'Open Sans';
+    padding: 1em;
+    background: #224036;
+    text-transform: none;
+    
+}
