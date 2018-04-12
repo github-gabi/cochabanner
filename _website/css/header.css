@@ -81,6 +81,7 @@
         float: none;
         padding-right: 0;
         margin-right: 0;
+        transition: all .5s ease;
     }
  
     .navbar-nav li {
@@ -135,6 +136,7 @@
         line-height: 1;
         text-transform: uppercase !important;
         color: #FFFFFF;
+        transition: all .5s ease;
     }
     
     .topEmailAddress {
@@ -159,6 +161,7 @@
     .navbar-default .navbar-toggle {
         border: none;
         color: #FFFFFF;
+        transition: all .5s ease;
     }
     .navbar-default .navbar-toggle .icon-bar {
         background-color: #FFFFFF;
