@@ -1,4 +1,5 @@
 @import 'fonts.css';
+@import 'header.css';
 
 footer {
     font: 1em/1.5em 'Open Sans';
@@ -7,12 +8,12 @@ footer {
     text-transform: uppercase;
 }
 
-.footer__menu a {
+footer a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.footer__menu a:hover {
+footer a:hover {
     color: #E2A227;
 }
 
@@ -63,6 +64,49 @@ nav > ul {
     border-bottom: none;
 }
 
+/*footer LOGOS*/
+
+.footer__logos {
+    border-top: 1px solid #8b8b8b;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+    .footer__logos {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.footer__logoCochabanner, .footer__logoProjectsAbroad {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.logo strong {
+    font-size: 30px;
+    font-family: 'Open Sans Extra-Bold', sans-serif;
+}
+
+a.logo:hover {
+        color: #E2A227 !important;
+        -ms-transform: scale(1.1, 1.1);
+        /* IE 9 */
+
+        -webkit-transform: scale(1.1, 1.1);
+        /* Safari */
+
+        transform: scale(1.1, 1.1);
+        /* Standard syntax */
+        text-decoration: none;
+
+}
+
+/*copyright*/
 
 .footer__copyright {
     font: 14px/20px 'Open Sans';
@@ -72,4 +116,8 @@ nav > ul {
     display: flex;
     justify-content: center;
 
+}
+
+.footer__email {
+     text-transform: none;
 }
