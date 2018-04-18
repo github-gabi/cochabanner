@@ -3,7 +3,7 @@
 
 footer {
     font: 1em/1.5em 'Open Sans';
-    background: rgb(34, 64, 54, 0.7);
+    background: rgba(34, 64, 54, 0.7);
     color: #ffffff;
     text-transform: uppercase;
 }
@@ -17,7 +17,7 @@ footer a:hover {
     color: #E2A227;
 }
 
-nav > ul {
+nav.footer__menu > ul {
     margin: 0;
     padding: 0;
     display: flex;
@@ -27,7 +27,7 @@ nav > ul {
 }
 
 @media screen and (max-width: 768px) {
-    nav > ul {
+    nav.footer__menu > ul {
         justify-content: center;
         flex-direction: column;
         text-align: center;
@@ -35,32 +35,32 @@ nav > ul {
     }
 }
 
-.list-item {
+nav.footer__menu .list-item {
     padding: 1.2em 0;
 }
 @media screen and (max-width: 768px) {
-    .list-item {
+    nav.footer__menu .list-item {
         padding: 0.5em 0;
         border-bottom: 1px solid  rgb(34, 64, 54);
     }
 }
 
-.list-item a {
+nav.footer__menu .list-item a {
     padding: 0 1.2em;
     line-height: 1.2;
     border-right: 1px solid #ffffff;
 }
 @media screen and (max-width: 768px) {
-    .list-item a {
+   nav.footer__menu .list-item a {
         border-right: none;
     }
 }
 
 
-.list-item:last-child a {
+nav.footer__menu .list-item:last-child a {
     border-right: none;
 }
-.list-item:last-child {
+nav.footer__menu .list-item:last-child {
     border-bottom: none;
 }
 
@@ -87,12 +87,12 @@ nav > ul {
     flex-direction: column;
     text-align: center;
 }
-.logo strong {
+.footer__logos .logo strong {
     font-size: 30px;
     font-family: 'Open Sans Extra-Bold', sans-serif;
 }
 
-a.logo:hover {
+.footer__logos a.logo:hover {
         color: #E2A227 !important;
         -ms-transform: scale(1.1, 1.1);
         /* IE 9 */

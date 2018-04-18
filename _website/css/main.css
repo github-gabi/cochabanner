@@ -1,5 +1,6 @@
 @import 'normalize.css';
 @import 'fonts.css';
-@import 'header.css';
-@import 'footer.css';
 @import 'header-bootstrap4.css';
+@import 'carousel.css';
+@import 'footer.css';
+
