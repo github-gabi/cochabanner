@@ -1,20 +1,48 @@
+
+
 .carousel-inner {
   max-height: 600px !important;
+  z-index: -1;
+  position: relative;
 }
 
 .carousel-item {
-    background: rgb(1, 65, 43);
-
+  background: rgb(1, 65, 43);
+  
 }
 
-#carouselBolivia img {
+.carousel-item img {
+  position: relative;
+  z-index: -1;
+}
+
+.carousel-inner img {
+  position: relative;
+  z-index: -1;
   -webkit-filter: sepia(2);
   filter: sepia(1);
   /*filter: grayscale(100%);*/
   opacity: .5;
   -moz-transition: opacity .3s linear;
-    -webkit-transition: opacity .3s linear;
-    -ms-transition: opacity .3s linear;
-    -o-transition: opacity .3s linear;
-    transition: opacity .3s linear;
+  -webkit-transition: opacity .3s linear;
+  -ms-transition: opacity .3s linear;
+  -o-transition: opacity .3s linear;
+  transition: opacity .3s linear;
 }
+
+.currentEdition {
+  position: absolute;
+  z-index: 500;
+  max-height: 600px;
+  width: 470px;
+  max-width: 470px;
+  top: 1em;
+  box-shadow: 3px 3px 15px #000000;
+
+}
+
+img .currentEdition-cover {
+  z-index: 500;
+  webkit-filter: drop-shadow(8px 8px 10px rgb(5, 5, 5));filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
+}
+
