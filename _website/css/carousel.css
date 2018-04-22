@@ -4,6 +4,7 @@
   max-height: 600px !important;
   z-index: -1;
   position: relative;
+  display: flex;
 }
 
 .carousel-item {
@@ -14,11 +15,7 @@
 .carousel-item img {
   position: relative;
   z-index: -1;
-}
-
-.carousel-inner img {
   position: relative;
-  z-index: -1;
   -webkit-filter: sepia(2);
   filter: sepia(1);
   /*filter: grayscale(100%);*/
@@ -43,6 +40,35 @@
 
 img .currentEdition-cover {
   z-index: 500;
-  webkit-filter: drop-shadow(8px 8px 10px rgb(5, 5, 5));filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
+  webkit-filter: drop-shadow(8px 8px 10px rgb(5, 5, 5));
+  filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
 }
 
+
+.currentEdition__title {
+  display: flex;  
+  justify-content: flex-end;
+  align-self: flex-end;
+  position: absolute;
+  left: 40%;
+  background: rgba(1, 65, 43, 0.3);
+  z-index: 10;
+  margin-bottom: 2em;
+  width: 60%;
+}
+
+.currentEdition__title h1 {
+  display: flex;
+
+  text-transform: capitalize;
+  color: #e1a027;
+}
+
+.floyerBox {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flower {
+  z-index: 50;
+}
