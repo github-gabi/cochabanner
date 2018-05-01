@@ -1,4 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+
+.curentEdition__box {
+  position: relative;
+}
+
+#carouselBolivia {
+  z-index: -1;
+  position: absolute;
+  display: block;
+  width: 100%;
+  margin-top: .1em;
+}
+
+.curentEdition, .curentEdition__title {
+  padding-right: 0;
+  padding-left: 0;
+  z-index: 5;
+}
+
+.curentEdition {
+  top: 2em;
+}
+
+.curentEdition__title {
+  bottom: 1em;
+  position: sticky;
+}
+
+h1 {
+  background:rgba(1, 65, 43, 0.6);
+  padding: 1rem;
+  color: #e1a027;
+  font-size: 3em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.flower {
+  z-index: 10;
+  position: absolute;
+  bottom: 1rem;
+  right: 4rem;
+  max-width: 100;
+  height: auto;
+}
 
 .carousel-inner {
   max-height: 600px !important;
@@ -27,48 +73,8 @@
   transition: opacity .3s linear;
 }
 
-.currentEdition {
-  position: absolute;
-  z-index: 500;
-  max-height: 600px;
-  width: 470px;
-  max-width: 470px;
-  top: 1em;
-  box-shadow: 3px 3px 15px #000000;
-
+.carousel-indicators {
+  top: 10px;
+  bottom: 0;
 }
 
-img .currentEdition-cover {
-  z-index: 500;
-  webkit-filter: drop-shadow(8px 8px 10px rgb(5, 5, 5));
-  filter: drop-shadow(10px 10px 20px rgb(0, 0, 0));
-}
-
-
-.currentEdition__title {
-  display: flex;  
-  justify-content: flex-end;
-  align-self: flex-end;
-  position: absolute;
-  left: 40%;
-  background: rgba(1, 65, 43, 0.3);
-  z-index: 10;
-  margin-bottom: 2em;
-  width: 60%;
-}
-
-.currentEdition__title h1 {
-  display: flex;
-
-  text-transform: capitalize;
-  color: #e1a027;
-}
-
-.floyerBox {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.flower {
-  z-index: 50;
-}
