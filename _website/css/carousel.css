@@ -37,6 +37,10 @@ h1 {
   font-weight: bold;
 }
 
+.cover {
+  -webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(5px 5px 5px #222);
+}
 .flower {
   z-index: 10;
   position: absolute;
@@ -44,6 +48,8 @@ h1 {
   right: 4rem;
   max-width: 100;
   height: auto;
+  -webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 .carousel-inner {
@@ -55,7 +61,7 @@ h1 {
 
 .carousel-item {
   background: rgb(1, 65, 43);
-  
+
 }
 
 .carousel-item img {
