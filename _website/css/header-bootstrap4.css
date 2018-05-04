@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .navbar {
-    padding: 1em 1em;
+    padding: 1em;
     background: #224036;
     color: #FFFFFF;
-    border: 0;
+    border-bottom: 1px solid #ffffff;
     font: 1em/1.5em 'Open Sans';
     justify-content: space-between;
 }
@@ -83,7 +83,7 @@
     /* Button */
     button:focus {
     outline: 1px dotted;
-    outline: 5px auto  #e1a027;
+    outline: 5px auto  hsl(39, 76%, 52%);
 }
 
 

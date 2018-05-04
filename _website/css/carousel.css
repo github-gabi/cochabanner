@@ -3,7 +3,16 @@
 
 .curentEdition__box {
   position: relative;
-  max-height: 600px;
+  display: block;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 576px) {
+  .curentEdition__box {
+    padding-bottom: 1rem;
+  }
 }
 
 .curentEdition, .curentEdition__title {
@@ -11,12 +20,10 @@
   padding-left: 0;
   z-index: 5;
 }
-
 .curentEdition {
-  top: 2em;
+  top: 2rem;
   position: relative;
 }
-
 
 @media screen and (max-width: 576px) {
   .curentEdition {
@@ -25,16 +32,26 @@
     }
 }
 
+.cover {
+  -webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+
 .curentEdition__title {
   position: absolute;
-  bottom: 0px;
+  bottom: 20px;
   right: 0;
 }
 
 @media screen and (max-width: 576px) {
   .curentEdition__title {
-    position: absolute;
-    bottom: 0px;
+    bottom: 0.5rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .curentEdition__title {
+    bottom: 10px;
   }
 }
 
@@ -47,70 +64,20 @@ h1 {
   font-weight: bold;
 }
 
-
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 2rem;
+    }
+}
 @media screen and (max-width: 576px) {
   h1 {
-    padding: 14px 14px 14px 24px;
-    font-size: 1.6rem;
+    padding: 14px 14px 14px 30px;
+    font-size: 1.5rem;
     bottom: 0;
     margin: 0;
     width: 100%;
     background:rgba(1, 65, 43, 0.9);
-    position: absolute;
     }
-}
-
-@media screen and (max-width: 768px) {
-  .curentEdition__title {
-    bottom: 0;
-  }
-
-  h1 {
-    padding: 14px 14px 14px 15px;
-    font-size: 1.8rem;
-    bottom: 0;
-    margin: 0;
-    width: 100%;
-    background:rgba(1, 65, 43, 0.6);
-    position: absolute;
-    }
-}
-
-@media screen and (max-width: 992px) {
-  .curentEdition__title {
-    bottom: 0;
-  }
-
-  h1 {
-    padding: 14px 14px 14px 15px;
-    font-size: 1.9rem;
-    bottom: 0;
-    margin: 0;
-    width: 100%;
-    background:rgba(1, 65, 43, 0.6);
-    position: absolute;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-  .curentEdition__title {
-    bottom: 0;
-  }
-
-  h1 {
-    padding: 14px 14px 14px 15px;
-    font-size: 2rem;
-    bottom: 0;
-    margin: 0;
-    width: 100%;
-    background:rgba(1, 65, 43, 0.6);
-    position: absolute;
-    }
-}
-
-.cover {
-  -webkit-filter: drop-shadow(5px 5px 5px #222 );
-  filter: drop-shadow(5px 5px 5px #222);
 }
 .flower {
   z-index: 10;
@@ -125,22 +92,30 @@ h1 {
   filter: drop-shadow(5px 5px 5px #222);
 }
 
+@media screen and (max-width: 1200px) {
+  .flower {
+    width: 100%;
+    max-width: 10rem;
+     right: 20px;
+  }
+}
 
 @media screen and (max-width: 576px) {
   .flower {
-    width: 100%;
-    max-width: 8rem;
+    max-width: 5rem;
     bottom: 0px;
     right: 20px;
-    }
+  }
 }
+
+
 
 #carouselBolivia {
   z-index: -1;
   position: absolute;
   display: block;
   width: 100%;
-  margin-top: .1em;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 576px) {
@@ -177,6 +152,7 @@ h1 {
 
 .carousel-indicators {
   top: 10px;
+  padding-right: 3rem;
   bottom: 0;
 }
 

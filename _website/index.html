@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark">
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark">
         <div class="container">
             <div class="header__logos">
                 <ul>
@@ -63,34 +63,24 @@
     <header>
         <div class="container-fluid">
             <div class="row curentEdition__box">
-                <div class="col-sm-3 offset-sm-2 align-items-end curentEdition">
-                    <img class="w-100 cover" src="images/carousel/cover-curent-edition.jpg" alt="First slide">
-                </div>
-                <div class="col-sm-7 w-100 align-items-sm-end curentEdition__title">
-                    <h1><i class="fas fa-angle-double-right"></i> May Edition</h1>
-                    <img class="flower" src="images/carousel/flower.png" alt="">
-                </div>
-
-
                 <div id="carouselBolivia" class="carousel slide" data-ride="carousel">
-
-                <ol class="carousel-indicators justify-content-end align-items-start">
-                    <li data-target="#carouselBolivia" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselBolivia" data-slide-to="1"></li>
-                    <li data-target="#carouselBolivia" data-slide-to="2"></li>
-                </ol>
+                    <ol class="carousel-indicators justify-content-end align-items-start">
+                        <li data-target="#carouselBolivia" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselBolivia" data-slide-to="1"></li>
+                        <li data-target="#carouselBolivia" data-slide-to="2"></li>
+                    </ol>
 
                     <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="images/carousel/animal-care.jpg" alt="Animal care">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/carousel/animal-care.jpg" alt="Animal care">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carousel/equine-therapy.jpg" alt="Equine Therapy">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/carousel/creative-performing-arts.jpg" alt="Creative & Performing Arts">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="images/carousel/equine-therapy.jpg" alt="Equine Therapy">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="images/carousel/creative-performing-arts.jpg" alt="Creative & Performing Arts">
-                    </div>
-                </div>
 
                 <!--a class="carousel-control-prev" href="#carouselBolivia" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -100,44 +90,50 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a-->
+            </div>
+                <div class="col-sm-3 offset-sm-2 align-items-end curentEdition">
+                    <img class="w-100 cover" src="images/carousel/cover-curent-edition.jpg" alt="First slide">
                 </div>
-
+                <div class="col-sm-7 w-100 align-items-sm-end  float-right curentEdition__title">
+                    <h1><i class="fas fa-angle-double-right"></i> May Edition</h1>
+                    <img class="flower" src="images/carousel/flower.png" alt="">
+                </div>
             </div>
         </div>
     </header>
-    <main>
-        <div class="container">
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue fringilla posuere. Nullam imperdiet erat
-                quis lectus finibus pharetra. Fusce neque massa, aliquam ut ante dictum, vestibulum pulvinar sapien. Proin
-                dapibus tempor massa quis fermentum. Maecenas lacinia sollicitudin nisi at volutpat. Sed elementum, sapien
-                ut pretium auctor, magna elit ultricies nisi, vel gravida odio nunc id purus. Nullam a lectus sit amet purus
-                accumsan convallis. Praesent rutrum ipsum placerat placerat elementum. Nam sed placerat mauris, molestie
-                blandit eros. Ut non fringilla ex. Praesent gravida mi non bibendum cursus. Suspendisse imperdiet lectus
-                eu odio condimentum suscipit. Donec commodo turpis neque, vel efficitur odio fringilla eget. Phasellus velit
-                velit, facilisis in augue eu, elementum dictum diam. Sed id ante vel enim tristique dignissim quis et lacus.</p>
+    <div class="container-fluid">
+        <main  class="row">
+            <div class="col-sm-8 offset-sm-2 content">
 
-            <p>Proin tincidunt enim sit amet elit blandit, id malesuada sem condimentum. Fusce vel mi vel sapien venenatis posuere.
-                Aenean ac vulputate dui. Curabitur ligula lectus, ornare non feugiat a, tempor ac eros. Sed metus dolor,
-                sagittis quis sagittis ac, elementum at sem. Proin tincidunt neque ut risus bibendum, id dignissim felis
-                lacinia. Integer ac finibus nulla. Suspendisse eget augue pellentesque, aliquet nibh sit amet, convallis
-                nibh. Praesent ultrices dolor eget maximus dignissim. Vivamus et sem nibh. Quisque eget enim non dui vehicula
-                maximus sit amet id massa. Sed at neque nibh. Ut dignissim maximus eros, nec cursus odio porttitor in. Nunc
-                id odio at mauris fringilla tristique in in magna.</p>
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-image">
+                        <img class="card-img-top" src="images/2017/may/the-spirit-of-osvaldo-sanchez.jpg" alt="The Spirit of Osvaldo Sánchez">
+                    </div>
+                        <div class="card-body">
+                            <h5 class="card-title">The Spirit of Osvaldo Sánchez</h5>
+                            <p class="card-text">Family of the deceased painter establishes artistic competition to commemorate the life of Oswaldo Sánchez Terrazas (1924
+                            – 2012)</p>
+                            <p class="card-text">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text">
+                                <small class="text-muted">Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-            <p>Nunc dictum tellus maximus, cursus tortor consequat, laoreet felis. Donec lorem nunc, pulvinar vitae elementum
-                sit amet, fermentum eu lorem. Cras dui nibh, sodales nec pretium pellentesque, pharetra ac libero. Nulla
-                dictum tellus at turpis porta volutpat. Nunc eu mollis est, ut porttitor nisi. Integer ultricies consectetur
-                felis, at maximus nisi ultricies vitae. Sed id consequat tellus, eu pretium purus. Donec non nunc aliquet,
-                feugiat felis id, euismod orci. Phasellus gravida metus vel odio vestibulum, ut ultricies odio tincidunt.
-                Quisque dolor mauris, rutrum in erat ac, vulputate tempor mauris.</p>
-
-            <p>Fusce id risus sapien. Donec vulputate rhoncus mattis. Donec imperdiet facilisis odio, eget ornare ex fermentum
-                sed. Fusce efficitur mi eget ipsum congue mattis. Nulla placerat in mauris id vulputate. Nullam ut est vehicula,
-                feugiat ligula iaculis, ullamcorper eros. Sed egestas ut arcu a mattis. Sed viverra eu enim non consectetur.
-                Aliquam porttitor consectetur turpis quis eleifend. Pellentesque sed vulputate augue. </p>
-
-        </div>
-    </main>
+            </div>
+         </main>
+    </div>
 
     <footer>
         <div class="container">
