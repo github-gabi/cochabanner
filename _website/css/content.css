@@ -1,13 +1,22 @@
 .content {
     padding-left: 0;
     padding-right: 0;
-    background: #e6e6e6;
+    position: relative;
+    margin-top:  4rem;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.content-grey {
+    padding-left: 0;
+    padding-right: 0;
     position: relative;
     margin-top:  20px;
     padding: 30px;
+    background: #e6e6e6;
 }
 
-.content::before {
+.content-grey::before {
     position: absolute;
     content: "";
     width: 0;
@@ -18,4 +27,29 @@
     left: 16%;
     margin-top: -56px;
     z-index: -1;
+}
+
+h1.page-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+h2.page-subtitle {
+    position: relative;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #b1b1b1;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+}
+
+h2.page-subtitle::after {
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #b1b1b1;
+    width: 100%;
+    bottom: 0;
+    margin-left: 10px;
 }

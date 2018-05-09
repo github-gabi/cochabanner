@@ -55,7 +55,7 @@
   }
 }
 
-h1 {
+.curentEdition__title h1 {
   background:rgba(1, 65, 43, 0.6);
   padding: 1rem;
   color: #e1a027;
@@ -65,12 +65,12 @@ h1 {
 }
 
 @media screen and (max-width: 1200px) {
-  h1 {
+  .curentEdition__title h1 {
     font-size: 2rem;
     }
 }
 @media screen and (max-width: 576px) {
-  h1 {
+  .curentEdition__title h1 {
     padding: 14px 14px 14px 30px;
     font-size: 1.5rem;
     bottom: 0;

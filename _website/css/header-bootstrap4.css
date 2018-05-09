@@ -41,10 +41,10 @@
             flex-wrap: nowrap;
             justify-content: space-between;
 
-}
-.header__logos ul li.logo {
-            padding-right: 0px;
-}
+        }
+        .header__logos ul li.logo {
+                    padding-right: 0px;
+        }
     }
 .header__logos .logo {
     text-align: center;
