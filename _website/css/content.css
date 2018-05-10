@@ -1,8 +1,14 @@
+.white-text {
+    color: #ffffff;
+}
+.bg-contact {
+    background: #828878;
+}
 .content {
     padding-left: 0;
     padding-right: 0;
     position: relative;
-    margin-top:  4rem;
+    font: 1em/1.8em 'Open Sans';
     padding: 30px;
     overflow: hidden;
 }
@@ -32,12 +38,14 @@
 h1.page-title {
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 2px;
     margin-bottom: 3rem;
 }
 
 h2.page-subtitle {
     position: relative;
     font-size: 1.5rem;
+    letter-spacing: 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #b1b1b1;
     margin-bottom: 1.5rem;
@@ -52,4 +60,27 @@ h2.page-subtitle::after {
     width: 100%;
     bottom: 0;
     margin-left: 10px;
+}
+
+#contact-us  {
+    background: url("../images/contact-us/world-maps.png") no-repeat center center;
+    background-size: contain;
+}
+
+#contact-us p {
+    color: #ffffff;
+}
+
+#contact-us a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#contact-us a:hover {
+    color: #E2A227;
+}
+
+#contact-us h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
 }
