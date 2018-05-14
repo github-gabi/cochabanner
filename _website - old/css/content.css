@@ -1,27 +1,18 @@
-:root {
-    --white: #ffffff;
-    --yellow: #E2A227;
-    --green: rgb(34, 64, 54);
-    --green05: rgba(34, 64, 54, 0.5);
-    --green07: rgba(34, 64, 54, 0.7);
-    --grey: #e6e6e6;
-}
-
-.text-yellow {
- color: var(--yellow);
+.white-text {
+    color: #ffffff;
 }
 .bg-contact {
-    background: var(--green05);
+    background: rgba(34, 64, 54, 0.5);
 }
+
 .bg-grey {
-    background: var(--grey);
+    background: #e6e6e6;
 }
-.bg-white {
-    background: var(--white);
-}
+
 .page-title-marginTop {
     margin-top: 13%;
 }
+
 .content {
     padding-left: 0;
     padding-right: 0;
@@ -37,7 +28,7 @@
     position: relative;
     margin-top:  20px;
     padding: 30px;
-    background: var(--grey);
+    background: #e6e6e6;
 }
 
 .content-index-currentEdition::before {
@@ -47,7 +38,7 @@
     height: 0;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
-    border-bottom: 30px solid var(--grey);
+    border-bottom: 30px solid #e6e6e6;
     left: 16%;
     margin-top: -56px;
     z-index: -1;
@@ -65,7 +56,7 @@ h2.page-subtitle {
     font-size: 1.5rem;
     letter-spacing: 2px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: var(--green07);
+    color: #b1b1b1;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
     text-transform: uppercase;
@@ -74,7 +65,7 @@ h2.page-subtitle {
 h2.page-subtitle::after {
     position: absolute;
     content: "";
-    border-bottom: 1px solid var(--green07);
+    border-bottom: 1px solid #b1b1b1;
     width: 100%;
     bottom: 0;
     margin-left: 10px;
@@ -114,32 +105,21 @@ h2.page-subtitle::after {
     font-size: 30px;
     border: none;
     outline: none;
-    background-color: transparent;
-    color: var(--green);
+    background-color:transparent;
+    color: #224036;
     cursor: pointer;
   }
-
+  
   #toTop:hover {
-    color: var(--yellow);
+    color: #E2A227;
   }
 
 
   /* Current Edition Page */
 
-  #currentEditionPage .nav-tabs .nav-link:not(.active)::after {
-        display:block;
-        content:"";
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        background-color: #000;
-        opacity:.3;
-        margin-left: 0.9rem;
-        margin-right: 0.9rem;
-
-}
+  #currentEditionPage {
+      
+  }
 
   .currentEditionPage-subtitle {
     font-size: 1.5rem;
@@ -147,9 +127,9 @@ h2.page-subtitle::after {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
     margin-bottom: 1.5rem;
-    text-transform: uppercase;
+    margin-top: 1.5rem;
+    text-transform: uppercase; 
     padding: 1rem;
-    background: var(--yellow);
+    background:#c75204;
     font-weight: bold;
   }
-
