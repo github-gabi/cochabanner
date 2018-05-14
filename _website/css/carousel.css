@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 
-.curentEdition__box {
+.currentEdition__box {
   position: relative;
   display: block;
   height: auto;
@@ -10,23 +10,23 @@
 }
 
 @media screen and (max-width: 576px) {
-  .curentEdition__box {
+  .currentEdition__box {
     padding-bottom: 1rem;
   }
 }
 
-.curentEdition, .curentEdition__title {
+.currentEdition, .currentEdition__title {
   padding-right: 0;
   padding-left: 0;
   z-index: 5;
 }
-.curentEdition {
+.currentEdition {
   top: 2rem;
   position: relative;
 }
 
 @media screen and (max-width: 576px) {
-  .curentEdition {
+  .currentEdition {
     top: 0;
     height: auto;
     }
@@ -38,24 +38,24 @@
 }
 
 
-.curentEdition__title {
+.currentEdition__title {
   position: absolute;
   bottom: 20px;
   right: 0;
 }
 
 @media screen and (max-width: 576px) {
-  .curentEdition__title {
+  .currentEdition__title {
     bottom: 0.5rem;
   }
 }
 @media screen and (max-width: 1200px) {
-  .curentEdition__title {
+  .currentEdition__title {
     bottom: 10px;
   }
 }
 
-.curentEdition__title h1 {
+.currentEdition__title h1 {
   background:rgba(1, 65, 43, 0.6);
   padding: 1rem;
   color: #e1a027;
@@ -65,12 +65,12 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .curentEdition__title h1 {
+  .currentEdition__title h1 {
     font-size: 2rem;
     }
 }
 @media screen and (max-width: 576px) {
-  .curentEdition__title h1 {
+  .currentEdition__title h1 {
     padding: 14px 14px 14px 30px;
     font-size: 1.5rem;
     bottom: 0;

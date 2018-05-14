@@ -4,6 +4,15 @@
 .bg-contact {
     background: rgba(34, 64, 54, 0.5);
 }
+
+.bg-grey {
+    background: #e6e6e6;
+}
+
+.page-title-marginTop {
+    margin-top: 13%;
+}
+
 .content {
     padding-left: 0;
     padding-right: 0;
@@ -13,7 +22,7 @@
     overflow: hidden;
 }
 
-.content-grey {
+.content-index-currentEdition {
     padding-left: 0;
     padding-right: 0;
     position: relative;
@@ -22,7 +31,7 @@
     background: #e6e6e6;
 }
 
-.content-grey::before {
+.content-index-currentEdition::before {
     position: absolute;
     content: "";
     width: 0;
@@ -84,3 +93,43 @@ h2.page-subtitle::after {
     font-size: 2rem;
     letter-spacing: 2px;
 }
+
+/* scroll to top */
+
+#toTop {
+    display: none;
+    position: fixed;
+    bottom: 45px;
+    right: 30px;
+    z-index: 99;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color:transparent;
+    color: #224036;
+    cursor: pointer;
+  }
+  
+  #toTop:hover {
+    color: #E2A227;
+  }
+
+
+  /* Current Edition Page */
+
+  #currentEditionPage {
+      
+  }
+
+  .currentEditionPage-subtitle {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    text-transform: uppercase; 
+    padding: 1rem;
+    background:#c75204;
+    font-weight: bold;
+  }

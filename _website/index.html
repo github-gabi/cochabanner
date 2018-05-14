@@ -25,7 +25,7 @@
             <div class="header__logos">
                 <ul>
                     <li class="logo">
-                        <a href="#" title="Cochabanner Bolivia">
+                        <a href="/" title="Cochabanner Bolivia">
                             <strong>Cochabanner</strong>
                             <br>Bolivia</a>
                     </li>
@@ -47,13 +47,13 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav active">
                         <li class="list-item">
-                            <a href="#" title="Home">Home<span class="sr-only">(current)</span></a>
+                            <a href="/" title="Home">Home<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="list-item">
                             <a href="#about-us" title="About us">About us</a>
                         </li>
                         <li class="list-item">
-                            <a href="/past-editions/" title="Past Editions">Past Editions</a>
+                            <a href="past-editions/" title="Past Editions">Past Editions</a>
                         </li>
                         <li class="list-item">
                             <a href="#contact-us" title="Contact us">Contact us</a>
@@ -68,7 +68,7 @@
 
     <header>
         <div class="container-fluid">
-            <div class="row curentEdition__box">
+            <div class="row currentEdition__box">
                 <div id="carouselBolivia" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators justify-content-end align-items-start">
                         <li data-target="#carouselBolivia" data-slide-to="0" class="active"></li>
@@ -96,11 +96,11 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a-->
-            </div>
-                <div class="col-sm-3 offset-sm-2 align-items-end curentEdition">
-                    <img class="w-100 cover" src="images/carousel/cover-curent-edition.jpg" alt="First slide">
                 </div>
-                <div class="col-sm-7 w-100 align-items-sm-end  float-right curentEdition__title">
+                <div class="col-sm-3 offset-sm-2 align-items-end currentEdition">
+                    <a href="2018/may/" title="Current Edition"><img class="w-100 cover" src="images/carousel/cover-current-edition.jpg" alt="First slide"></a>
+                </div>
+                <div class="col-sm-7 w-100 align-items-sm-end  float-right currentEdition__title">
                     <h1><i class="fas fa-angle-double-right"></i> May Edition</h1>
                     <img class="flower" src="images/carousel/flower.png" alt="">
                 </div>
@@ -112,7 +112,7 @@
 
     <div class="container-fluid">
         <main class="row">
-            <section class="col-sm-8 offset-sm-2 content-grey">
+            <section class="col-sm-8 offset-sm-2 content-index-currentEdition">
                 <div class="card-deck mb-4">
                     <div class="card">
                         <div class="card-image">
@@ -122,7 +122,7 @@
                             <h5 class="card-title">The Spirit of Osvaldo Sánchez</h5>
                             <p class="card-text">Family of the deceased painter establishes artistic competition to commemorate the life of Oswaldo Sánchez Terrazas (1924
                             – 2012)</p>
-                            <a href="the-spirit-of-osvaldo-sanchez" class="btn btn-yellow float-right">read more...</a>
+                            <a href="2018/may/" class="btn btn-yellow float-right">read more...</a>
                         </div>
                     </div>
                     <div class="card">
@@ -197,7 +197,7 @@
 <!--About us-->
 
             <section id="about-us" class="col-sm-8 offset-sm-2 content">
-                <h1 class="page-title">About us</h1>
+                <h1 class="page-title page-title-marginTop">About us</h1>
                 <h2 class="page-subtitle">Cochabanner’s first steps</h2>
                 <p>In 2005, Projects Abroad teaching volunteer Scott Liddle, began a small publication with a group of students from Cochabamba’s Universidad Mayor de San Simón, to promote reading and writing in English. They named it “The Cochabanner”. During his time as a volunteer, Scott was able to publish 3 issues of The Cochabanner. As a small publication, the pages were filled with articles and caricatures or comics written entirely by the Linguistic students. The response to The Cochabanner was truly amazing and the participation of the students and faculty more so. As it was time to complete his project, Scott approached the Projects Abroad office to present the idea of The Cochabanner as a full time journalism project.</p>
 
@@ -245,6 +245,10 @@
          </main>
     </div>
 
+<!--Scroll to Top--> 
+
+<button onclick="topFunction()" id="toTop" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+
 <!--Footer-->
     <footer>
         <div class="container">
@@ -286,14 +290,41 @@
         </div>
     </footer>
 
+    
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+    
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-
+    
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    
+    <!-- Custom JS -->
+    
+    <script src="script/custom.js"></script>
+    <script>
+
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                document.getElementById("toTop").style.display = "block";
+            } else {
+                document.getElementById("toTop").style.display = "none";
+            }
+        }
+        
+        
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        </script>
+    
+
+
+
 </body>
 
 </html>
