@@ -10,18 +10,23 @@
 .text-yellow {
  color: var(--yellow);
 }
+
 .bg-contact {
     background: var(--green05);
 }
+
 .bg-grey {
     background: var(--grey);
 }
+
 .bg-white {
     background: var(--white);
 }
+
 .page-title-marginTop {
     margin-top: 13%;
 }
+
 .content {
     padding-left: 0;
     padding-right: 0;
@@ -127,17 +132,17 @@ h2.page-subtitle::after {
   /* Current Edition Page */
 
   #currentEditionPage .nav-tabs .nav-link:not(.active)::after {
-        display:block;
-        content:"";
-        position:absolute;
-        top:0;
-        bottom:0;
-        left:0;
-        right:0;
-        background-color: #000;
-        opacity:.3;
-        margin-left: 0.9rem;
-        margin-right: 0.9rem;
+    display:block;
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: #000;
+    opacity:.3;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
 
 }
 
@@ -153,3 +158,9 @@ h2.page-subtitle::after {
     font-weight: bold;
   }
 
+.tab-content-withBorder {
+    border-top: none;
+    border-bottom: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+}
