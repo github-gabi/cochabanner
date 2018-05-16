@@ -5,6 +5,7 @@
     --green05: rgba(34, 64, 54, 0.5);
     --green07: rgba(34, 64, 54, 0.7);
     --grey: #e6e6e6;
+    --brown: #b62501;
 }
 
 .text-yellow {
@@ -63,27 +64,37 @@ h1.page-title {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 3rem;
+    font-weight: bold;
 }
 
 h2.page-subtitle {
     position: relative;
-    font-size: 1.5rem;
-    letter-spacing: 2px;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: var(--green07);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     margin-top: 1.5rem;
-    text-transform: uppercase;
+    padding-bottom: 0.8rem;
+    font-weight: bold;
+    border-bottom: 1px solid var(--yellow);
 }
 
-h2.page-subtitle::after {
+h3.article-sub-subtitle {
+    font-size: 1.3rem;
+}
+
+/*h2.page-subtitle::after {
     position: absolute;
     content: "";
     border-bottom: 1px solid var(--green07);
-    width: 100%;
+    width: 60%;
     bottom: 0;
     margin-left: 10px;
-}
+}*/
+
+
+/* Contact us */
 
 #contact-us  {
     background: url("../images/contact-us/world-maps.png") no-repeat center center;
@@ -158,9 +169,36 @@ h2.page-subtitle::after {
     font-weight: bold;
   }
 
+  .card-body-height {
+      height: 7rem;
+  }
+
 .tab-content-withBorder {
     border-top: none;
     border-bottom: 1px solid #dee2e6;
     border-left: 1px solid #dee2e6;
     border-right: 1px solid #dee2e6;
+    overflow: hidden;
 }
+
+.author {
+    font-style: italic;
+    color: var(--brown);
+    line-height: 1.2;
+}
+
+.lead-article {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+p:first-child::first-letter {
+    color: #903;
+    float: left;
+    font-family: Georgia;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+  }
