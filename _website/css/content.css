@@ -202,6 +202,7 @@ p.articleFirst-p::first-letter {
   margin: 0 .1em 0 0;
   display: inline;
   line-height: .8em;
+<<<<<<< HEAD
 }
 
 .img-container {
@@ -257,3 +258,6 @@ p.articleFirst-p::first-letter {
   }
 
     
+=======
+}
+>>>>>>> 1bfce30332be3f8cc6fbc1bae560d54e3ebbf7a7
