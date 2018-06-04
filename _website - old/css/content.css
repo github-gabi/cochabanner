@@ -1,12 +1,29 @@
-.white-text {
-    color: #ffffff;
+:root {
+    --white: #ffffff;
+    --yellow: #E2A227;
+    --green: rgb(34, 64, 54);
+    --green05: rgba(34, 64, 54, 0.5);
+    --green07: rgba(34, 64, 54, 0.7);
+    --grey: #e6e6e6;
+    --brown: #b62501;
+    --dark07: rgba(0, 0, 0, 0.7);
+    --dark05: rgba(0, 0, 0, 0.5);
 }
+
+.text-yellow {
+ color: var(--yellow);
+}
+
 .bg-contact {
-    background: rgba(34, 64, 54, 0.5);
+    background: var(--green05);
 }
 
 .bg-grey {
-    background: #e6e6e6;
+    background: var(--grey);
+}
+
+.bg-white {
+    background: var(--white);
 }
 
 .page-title-marginTop {
@@ -28,7 +45,7 @@
     position: relative;
     margin-top:  20px;
     padding: 30px;
-    background: #e6e6e6;
+    background: var(--grey);
 }
 
 .content-index-currentEdition::before {
@@ -38,7 +55,7 @@
     height: 0;
     border-left: 30px solid transparent;
     border-right: 30px solid transparent;
-    border-bottom: 30px solid #e6e6e6;
+    border-bottom: 30px solid var(--grey);
     left: 16%;
     margin-top: -56px;
     z-index: -1;
@@ -49,27 +66,37 @@ h1.page-title {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 3rem;
+    font-weight: bold;
 }
 
 h2.page-subtitle {
     position: relative;
-    font-size: 1.5rem;
-    letter-spacing: 2px;
+    font-size: 2rem;
+    letter-spacing: 1px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #b1b1b1;
-    margin-bottom: 1.5rem;
+    color: var(--green07);
+    margin-bottom: 1rem;
     margin-top: 1.5rem;
-    text-transform: uppercase;
+    padding-bottom: 0.8rem;
+    font-weight: bold;
+    border-bottom: 1px solid var(--yellow);
 }
 
-h2.page-subtitle::after {
+h3.article-sub-subtitle {
+    font-size: 1.3rem;
+}
+
+/*h2.page-subtitle::after {
     position: absolute;
     content: "";
-    border-bottom: 1px solid #b1b1b1;
-    width: 100%;
+    border-bottom: 1px solid var(--green07);
+    width: 60%;
     bottom: 0;
     margin-left: 10px;
-}
+}*/
+
+
+/* Contact us */
 
 #contact-us  {
     background: url("../images/contact-us/world-maps.png") no-repeat center center;
@@ -105,21 +132,32 @@ h2.page-subtitle::after {
     font-size: 30px;
     border: none;
     outline: none;
-    background-color:transparent;
-    color: #224036;
+    background-color: transparent;
+    color: var(--green);
     cursor: pointer;
   }
-  
+
   #toTop:hover {
-    color: #E2A227;
+    color: var(--yellow);
   }
 
 
   /* Current Edition Page */
 
-  #currentEditionPage {
-      
-  }
+  #currentEditionPage .nav-tabs .nav-link:not(.active)::after {
+    display:block;
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: #000;
+    opacity:.3;
+    margin-left: 0.9rem;
+    margin-right: 0.9rem;
+
+}
 
   .currentEditionPage-subtitle {
     font-size: 1.5rem;
@@ -127,9 +165,93 @@ h2.page-subtitle::after {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
     margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     padding: 1rem;
-    background:#c75204;
+    background: var(--yellow);
     font-weight: bold;
+  }
+
+  .card-body-height {
+      height: 7rem;
+  }
+
+.tab-content-withBorder {
+    border-top: none;
+    border-bottom: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    overflow: hidden;
+}
+
+.author {
+    font-style: italic;
+    color: var(--brown);
+    line-height: 1.2;
+}
+
+.lead-article {
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+p.articleFirst-p::first-letter {
+  color: var(--yellow);
+  float: left;
+  font-size: 5em;
+  margin: 0 .1em 0 0;
+  display: inline;
+  line-height: .8em;
+}
+
+.img-container {
+    max-width: 20rem;
+    height: 25rem;
+    position: relative;
+}
+
+.img-container-22 {
+    max-width: 22rem;
+    position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .img-container {
+        text-align: center;
+        width: 100%;
+        display: block;
+        float: none;
+        clear: both;
+    }
+}
+
+
+.img-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.img-author {
+    position: absolute;
+    bottom: 0.3rem;
+    left: 15px;
+    margin: 0 -15px 0 0;
+    background: var(--dark07);
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    line-height: 1;
+  }
+
+  .img-float-right {
+      float: right;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+  }
+
+  .img-float-left {
+      float: left;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
   }
