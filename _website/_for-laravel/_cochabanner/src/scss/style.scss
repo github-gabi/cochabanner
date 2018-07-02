@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+$openSans-font: 1em/1.5em 'Open Sans';
+$green:  #224036 !important;
+$secondary:rgba(255, 255, 255, 0.5);
+$yellow: #E2A227;
+
+.text-secondary {
+    color: $secondary;
+}
+
+.text-yellow {
+    color: $yellow;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.opacity-50:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+/*--Top Menu--*/
+#topNav {
+    .bg-dark {
+        background-color: $green !important;
+    }
+    .navbar {
+        box-shadow: 2px 2px 5px #ffffff;
+    }
+
+    .navbar-brand {
+        font-family: $openSans-font;
+        line-height: 1.5rem;
+
+        h3 {
+            font-size: 1.4rem;
+        }
+
+        span {
+            font-size: 1rem;
+        }
+
+        :hover {
+            color: $yellow;
+        }
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        font-size: 1rem;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+
+    .nav-item.active {
+        border-left: 1px solid $secondary;
+    }
+
+    .topEmailAddress a {
+     color: $secondary;
+    }
+    
+    .nav-link:hover, .topEmailAddress a:hover  {
+        color: $yellow !important;
+    }
+
+
+
+
+}
