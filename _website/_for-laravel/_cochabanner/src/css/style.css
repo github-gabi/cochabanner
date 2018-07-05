@@ -13,34 +13,158 @@
   opacity: 1.0;
   filter: alpha(opacity=100); }
 
+.bg-primary {
+  background-color: #224036 !important; }
+
 /*--Top Menu--*/
-#topNav .bg-dark {
-  background-color: #224036 !important !important; }
+#topNav {
+  background-color: #224036 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5); }
+  #topNav .navbar {
+    box-shadow: 2px 2px 5px #ffffff; }
+  #topNav .navbar-brand {
+    font-family: 1em/1.5em "Open Sans";
+    line-height: 1.5rem; }
+    #topNav .navbar-brand h3 {
+      font-size: 1.4rem; }
+    #topNav .navbar-brand span {
+      font-size: 1rem; }
+    #topNav .navbar-brand :hover {
+      color: #E2A227; }
+  #topNav .nav-link {
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important; }
+  #topNav .nav-item.active {
+    border-left: 1px solid rgba(255, 255, 255, 0.5); }
+  #topNav .topEmailAddress a {
+    color: rgba(255, 255, 255, 0.5); }
+  #topNav .nav-link:hover, #topNav .topEmailAddress a:hover {
+    color: #E2A227 !important; }
 
-#topNav .navbar {
-  box-shadow: 2px 2px 5px #ffffff; }
+/*--Showcase Slider--*/
+#showcase {
+  position: relative;
+  display: block;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 3rem; }
 
-#topNav .navbar-brand {
-  font-family: 1em/1.5em "Open Sans";
-  line-height: 1.5rem; }
-  #topNav .navbar-brand h3 {
-    font-size: 1.4rem; }
-  #topNav .navbar-brand span {
-    font-size: 1rem; }
-  #topNav .navbar-brand :hover {
-    color: #E2A227; }
+@media screen and (max-width: 576px) {
+  #showcase {
+    padding-bottom: 1rem; } }
 
-#topNav .nav-link {
-  text-transform: uppercase;
-  font-size: 1rem;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important; }
+.currentEdition, .currentEdition__title {
+  padding-right: 0;
+  padding-left: 0;
+  z-index: 5; }
 
-#topNav .nav-item.active {
-  border-left: 1px solid rgba(255, 255, 255, 0.5); }
+.currentEdition {
+  top: 2rem;
+  position: absolute; }
 
-#topNav .topEmailAddress a {
-  color: rgba(255, 255, 255, 0.5); }
+@media screen and (max-width: 576px) {
+  .currentEdition {
+    top: 0;
+    height: auto; } }
 
-#topNav .nav-link:hover, #topNav .topEmailAddress a:hover {
-  color: #E2A227 !important; }
+.cover {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  max-height: 600px;
+  height: auto; }
+
+.currentEdition__title {
+  position: absolute;
+  bottom: 20px;
+  right: 0; }
+
+@media screen and (max-width: 576px) {
+  .currentEdition__title {
+    bottom: 0.5rem; } }
+
+@media screen and (max-width: 1200px) {
+  .currentEdition__title {
+    bottom: 10px; } }
+
+.currentEdition__title h1 {
+  background: rgba(1, 65, 43, 0.6);
+  padding: 1rem;
+  color: #e1a027;
+  font-size: 3rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold; }
+
+@media screen and (max-width: 1200px) {
+  .currentEdition__title h1 {
+    font-size: 2rem; } }
+
+@media screen and (max-width: 576px) {
+  .currentEdition__title h1 {
+    padding: 14px 14px 14px 30px;
+    font-size: 1.5rem;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    background: rgba(1, 65, 43, 0.9); } }
+
+.flower {
+  z-index: 10;
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  width: 100%;
+  max-width: 14rem;
+  height: auto;
+  display: block;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222); }
+
+@media screen and (max-width: 1200px) {
+  .flower {
+    width: 100%;
+    max-width: 10rem;
+    right: 20px; } }
+
+@media screen and (max-width: 576px) {
+  .flower {
+    max-width: 5rem;
+    bottom: 0px;
+    right: 20px; } }
+
+#carouselBolivia {
+  z-index: -1;
+  margin-top: 0; }
+
+.carousel-item {
+  min-height: 600px; }
+
+.carousel-image-1 {
+  background: url("../img/carousel/animal-care.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.carousel-image-2 {
+  background: url("../img/carousel/equine-therapy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.carousel-image-3 {
+  background: url("../img/carousel/creative-performing-arts.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.carousel-item-color {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #224036;
+  height: 100%;
+  opacity: .5;
+  -moz-transition: opacity .3s linear;
+  -webkit-transition: opacity .3s linear;
+  -ms-transition: opacity .3s linear;
+  -o-transition: opacity .3s linear;
+  transition: opacity .3s linear; }
