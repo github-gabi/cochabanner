@@ -76,21 +76,22 @@ $yellow: #E2A227;
 /*--Showcase Slider--*/
 
 #showcase {
-    position: relative;
-    display: block;
-    height: auto;
-    overflow: hidden;
-    padding-bottom: 3rem;
-  }
+  position: relative;
+  min-height: 600px;
+  z-index: -1;
+}
   
-  @media screen and (max-width: 576px) {
-    #showcase {
-      padding-bottom: 1rem;
+  #currentEdition__box {
+      position: absolute;
+      top: 2rem;
+      z-index: 5;
+  
+   
     }
-  }
 
 
-  
+
+  /* 
   .currentEdition, .currentEdition__title {
     padding-right: 0;
     padding-left: 0;
@@ -185,18 +186,17 @@ $yellow: #E2A227;
       right: 20px;
     }
   }
-  
+
 
   #carouselBolivia {
     z-index: -1;   
     margin-top: 0;
   }
-
+   */
 
 
 .carousel-item {
-    min-height: 600px; 
-    
+    min-height: 600px;  
 }
 
 .carousel-image-1 {
