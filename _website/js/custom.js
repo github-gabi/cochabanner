@@ -1,5 +1,14 @@
-<script>
 
+$(function() {
+    $("#home a:contains('Home')").parent().addClass('active');
+    $("#pastEditions-page a:contains('Past Editions')").parent().addClass('active');
+
+}
+
+
+
+
+)
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -15,4 +24,3 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
-</script>

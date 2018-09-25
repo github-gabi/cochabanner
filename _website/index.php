@@ -21,47 +21,7 @@
 <!--Nav bar-->
 
     <nav class="navbar sticky-top navbar-expand-md navbar-dark">
-        <div class="container">
-            <div class="header__logos">
-                <ul>
-                    <li class="logo">
-                        <a href="/" title="Cochabanner Bolivia">
-                            <strong>Cochabanner</strong>
-                            <br>Bolivia</a>
-                    </li>
-                    <li class="mobileHide">by</li>
-                    <li class="mobileHide">
-                        <a href="https://projects-abroad.co.uk" title="Project Abroad">
-                            <img src="images/_global/logo-projects-abroad.png" title="Project Abroad" alt="Project Abroad" width="80%">
-                        </a>
-                    </li>
-                </ul>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div class="header__menu">
-                <div class="topEmailAddress">
-                    <a href="mailto:cocha-banner@projects-abroad.org" title="cocha-banner@projects-abroad.org">cocha-banner@projects-abroad.org</a>
-                </div>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav active">
-                        <li class="list-item">
-                            <a href="#home" title="Home">Home<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="list-item">
-                            <a href="#about-us" title="About us">About us</a>
-                        </li>
-                        <li class="list-item">
-                            <a href="past-editions/" title="Past Editions">Past Editions</a>
-                        </li>
-                        <li class="list-item">
-                            <a href="#contact-us" title="Contact us">Contact us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <?php include_once('inc/nav.php'); ?>
     </nav>
 
 <!--Carousel-->
@@ -116,7 +76,7 @@
                 <div class="card-deck mb-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="card-img-top" src="images/2017/may/the-spirit-of-osvaldo-sanchez.jpg" alt="The Spirit of Osvaldo Sánchez">
+                            <img class="card-img-top" src="images/2018/may/the-spirit-of-osvaldo-sanchez.jpg" alt="The Spirit of Osvaldo Sánchez">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">The Spirit of Osvaldo Sánchez</h5>
@@ -128,7 +88,7 @@
                     <div class="card">
                         <div class="card-image">
 
-                            <img class="card-img-top" src="images/2017/may/toro-toro-a-town-filled-with-history.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="images/2018/may/toro-toro-a-town-filled-with-history.jpg" alt="Card image cap">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Toro Toro - beautiful landscapes and life experience</h5>
@@ -144,7 +104,7 @@
                 <div class="card-deck mb-4">
                     <div class="card">
                         <div class="card-image">
-                            <img class="card-img-top" src="images/2017/may/the-story-behind-mother-s-day.jpg" alt="The story behind Mother's Day">
+                            <img class="card-img-top" src="images/2018/may/the-story-behind-mother-s-day.jpg" alt="The story behind Mother's Day">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">The story behind Mother's Day</h5>
@@ -155,7 +115,7 @@
                     <div class="card">
                         <div class="card-image">
 
-                            <img class="card-img-top" src="images/2017/may/bolivia-offers-an-amazing-amazon-basin-experience-at-a-budget-price.jpg" alt="Bolivia Offers an Amazing Amazon Basin Experience">
+                            <img class="card-img-top" src="images/2018/may/bolivia-offers-an-amazing-amazon-basin-experience-at-a-budget-price.jpg" alt="Bolivia Offers an Amazing Amazon Basin Experience">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Bolivia Offers an Amazing Amazon Basin Experience</h5>
@@ -169,7 +129,7 @@
                 <div class="card mb-4">
                     <div class="row card-agenda-cultural">
                         <div class="media agenda-cultural-item icba col-sm-6">
-                            <img class="mr-4 logo-agenda-cultural" src="images/2017/may/logo-icba.jpg" alt="Generic placeholder image">
+                            <img class="mr-4 logo-agenda-cultural" src="images/2018/may/logo-icba.jpg" alt="Generic placeholder image">
                             <div class="media-body">
                             <h5 class="card-title">Agenda Cultural</h5>
                             <h6 class="text-muted">TANDEM – MESAS DE CONVERSACIÓN 2 </h6>
@@ -179,7 +139,7 @@
                         </div>
 
                         <div class="media agenda-cultural-item logo-alianza-frances col-sm-6">
-                            <img class="mr-4" src="images/2017/may/alianza-frances.jpg" alt="Generic placeholder image">
+                            <img class="mr-4" src="images/2018/may/alianza-frances.jpg" alt="Generic placeholder image">
                             <div class="media-body">
                                 <h5 class="card-title">Alianza Frances</h5>
                                 <h6 class="text-muted">MÚSICA  </h6>

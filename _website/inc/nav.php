@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>header-bootstrap4</title>
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <!-- own CSS -->
-    <link rel="stylesheet" href="css/header-bootstrap4.css">
-</head>
-<body>
-    <nav class="navbar navbar-expand-md navbar-dark">
-        <div class="container">
+<div class="container">
             <div class="header__logos">
                 <ul>
                     <li class="logo">
-                        <a href="#" title="Cochabanner Bolivia">
+                        <a href="/" title="Cochabanner Bolivia">
                             <strong>Cochabanner</strong>
                             <br>Bolivia</a>
                     </li>
@@ -37,35 +22,20 @@
                     <a href="mailto:cocha-banner@projects-abroad.org" title="cocha-banner@projects-abroad.org">cocha-banner@projects-abroad.org</a>
                 </div>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav active">
                         <li class="list-item">
-                            <a href="#" title="Home">Home</a>
+                            <a href="index.html" title="Home">Home<span class="sr-only">Home</span></a>
                         </li>
                         <li class="list-item">
-                            <a href="#" title="About us">About us</a>
+                            <a href="#about-us" title="About us">About us</a>
                         </li>
                         <li class="list-item">
-                            <a href="#" title="Past Edisions">Past Edisions</a>
+                            <a href="past-editions/" title="Past Editions">Past Editions</a>
                         </li>
                         <li class="list-item">
-                            <a href="#" title="Contact us">Contact us</a>
+                            <a href="#contact-us" title="Contact us">Contact us</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </nav>
-
-
-
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-</body>
-</html>

@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body id="may-2018-page">
 
 <!--Nav bar-->
 
@@ -175,7 +175,6 @@
                             members (Enriqueta Canedo Vda., and Walter Sánchez Canedo). “I was most impressed with the high quality of the painters and
                             their professionalism,” states Walter. “The contest involved two paintings. The objective of this modality was to appreciate the sensitivity, the technique, the ability of the artists to capture the aesthetic of their surroundings, whether
                             landscape, social, architectural, etc. In this sense, works of great quality were painted.”</p>
-                            
                             <blockquote class="blockquote border-left border-warning bg-light p-3">
                                 <i><small>“The purpose is to generate a space … so that all painters of Bolivia can share their art, paint, and experiences,”</small></i>
                                 <p class="text-right">
@@ -208,10 +207,13 @@
                             of Bolivian and foreign artists. “It would be a great opportunity … for our local painters to be nourished by new sensitivities,
                             new pictorial languages, and so on. Art is essentially the possibility of not only expressing on canvas or on a medium, but
                             also linking with the vitality of life. International artists will be welcome,”</p>
-                            <div class="img-caption bg-light mb-4">
-                                “What struck me about the work is that there is no embellishment or ostentatious presentation. No metaphor. The forms of
-                                the objects are clear. It does not give rise to any confusion,”
-                            </div> 
+
+                            <blockquote class="blockquote border-left border-warning bg-light p-3">
+                                    <p class="text-center"><i><small>-“What struck me about the work is that there is no embellishment or ostentatious presentation. No metaphor. The forms of
+                                    the objects are clear. It does not give rise to any confusion,” </small></i></p>
+
+                            </blockquote>
+
                             <div class="row my-4 mx-auto justify-content-center">
                                 <div class="img-container col-md-6 col-lg-3 text-white">
                                     <img src="../../images/2018/may/the-spirit-of-osvaldo-sanchez6.jpg" alt="The Spirit of Osvaldo Sánchez">
@@ -269,10 +271,12 @@
                         footprints can be found in several locations. There are more than 2,500 footprints from different kinds of dinosaurs (biped
                         and quadruped dinosaurs, theropods and sauropods); the largest footprint is one meter across. It is amazing how clear you
                         can still see it, even though it is 145 million years old.</p>
-                        <div class="img-caption bg-light mb-4">
-                            - Incredible waterfalls, a large cave with stalactites and stalagmites, some of the best preserved dinosaur tracks in South America
-                        </div> 
-                        
+                        <blockquote class="blockquote border-left border-warning bg-light p-3">
+                            <i>
+                                <small>- Incredible waterfalls, a large cave with stalactites and stalagmites, some of the best preserved dinosaur tracks in South America</small>
+                            </i>
+                        </blockquote>
+
                         <div class="row my-4 mx-auto justify-content-center">
                             <div class="img-container col-md-6 text-white">
                                 <img src="../../images/2018/may/toro-toro-a-town-filled-with-history1.jpg" alt="Toro Toro - beautiful landscapes and life experience">
@@ -296,9 +300,11 @@
                         It has lush and tropical vegetation with many different sorts of plants and animals. For example, if you are lucky, you will
                         see the only species of endangered red-fronted rainbow macaws found in South America. The park is an extraordinarily authentic
                         paradise with deep canyons and valleys. Panoramic landscapes eroded by wind and waters make it even more extraordinary.</p>
-                        <div class="img-caption bg-light mb-4">
-                            Next to the town is Toro Toro National Park, which was founded in 1989. The park covers an area of 164 square kilometers.
-                        </div> 
+                        <blockquote class="blockquote border-left border-warning bg-light p-3">
+                            <i>
+                                <small>Next to the town is Toro Toro National Park, which was founded in 1989. The park covers an area of 164 square kilometers.</small>
+                            </i>
+                        </blockquote>
                         <div class="row my-4 mx-auto justify-content-center">
                             <div class="img-container col-md-6 text-white">
                                 <img src="../../images/2018/may/toro-toro-a-town-filled-with-history3.jpg" alt="Toro Toro - beautiful landscapes and life experience">
@@ -652,7 +658,6 @@ clean.
 
             </section>
 
-<!-- Agenda Cultural -->
 
             <section id="agendaCultural" class="col-sm-8 mx-auto mb-4 pt-0 content">
                 <h1 class="page-title mb-5">Agenda Cultural</h1>
@@ -661,10 +666,8 @@ clean.
                         <div class="row">
                             <div class="col-md-2 mx-auto text-center"><img class="mr-4 logo-agenda-cultural" src="../../images/2017/may/logo-icba.jpg" alt="Generic placeholder image"></div>
                             <div class="col-md-10">
-                                <h2 class="page-subtitle mt-0">Instituto Cultural Boliviano Alemán – ICBA</h2>
-                                <article class="agendaCultural-list">
-
-                                <dl class="row p-3 agendaCultural-items">
+                                <h2 class="page-subtitle">Instituto Cultural Boliviano Alemán – ICBA</h2>
+                                <dl class="row agendaCultural-list p-3">
                                     <dt><i class="fas fa-caret-right text-brown"></i> TANDEM – MESAS DE
                                         CONVERSACIÓN 2</dt>
                                     <dd>
@@ -710,40 +713,36 @@ clean.
                                                 whatsapp 70368315</p>
                                     </dd>
                                 </dl>
-                               </article>   
+                                  
                             </div>
                         </div>
                     </div>
-
-                    <div id="alianza-francesa" class="mt-5">
+                    
+                    <div id="icba">
                         <div class="row">
-                            <div class="col-md-2 mx-auto text-center"><img class="mr-4 logo-agenda-cultural" src="../../images/2017/may/alianza-frances.jpg" alt=""></div>
+                            <div class="col-md-2 mx-auto text-center"><img class="mr-4 logo-agenda-cultural" src="../../images/2017/may/logo-icba.jpg" alt="Generic placeholder image"></div>
                             <div class="col-md-10">
-                                <h2 class="page-subtitle">Alianza Francesa</h2>
-                                <article class="agendaCultural-list">
-
-                                <dl class="row p-3 agendaCultural-items">
-                                    <dt><i class="fas fa-caret-right text-brown"></i> MÚSICA</dt>
+                                <h2 class="page-subtitle">Instituto Cultural Boliviano Alemán – ICBA</h2>
+                                <dl class="row agendaCultural-list p-3">
+                                    <dt><i class="fas fa-caret-right text-brown"></i> TANDEM – MESAS DE
+                                        CONVERSACIÓN 2</dt>
                                     <dd>
-                                        <p>Viernes 19 de mayo - 19h - Alianza Francesa
-                                            <br>“VIERNES MUSICALES” CON CAROLINA
-                                            PARAVICINI
-                                            <br>Auspicia : ENDE Transmisión
-                                            <br>C. La Paz nº784 - Ingreso : 15 Bs</p>
+                                        <p>9,16,23, 30 de Mayo
+                                        <br>¿Quieres mejorar tu nivel de alemán, inglés y
+                                        español? Ven a las mesas de conversación para
+                                        encontrar nuevos</p>
                                     </dd>
 
-                                    <dt><i class="fas fa-caret-right text-brown"></i> CINE</dt>
+                                    <dt><i class="fas fa-caret-right text-brown"></i> CINE ALEMÁN EN EL ICBA (CADA
+                                            SEGUNDO MIÉRCOLES DE MES)</dt>
                                     <dd>
-                                        <p>Lunes 15 de mayo - 19h - Alianza Francesa
-                                            <br>“LES LIGNES DE WELLINGTON”
-                                            <br>C. La Paz nº784 - Ingreso libre
-                                            <br>Lunes 22 de mayo - 19h - Alianza Francesa</p>
-                                        <p>Lunes 22 de mayo - 19h - Alianza Francesa
-                                            <br> “3 COEURS”
-                                            <br>C. La Paz nº784 - Ingreso libre</p>
-                                        <p>Lunes 29 de mayo - 19h - Alianza Francesa
-                                            <br>“LA RELIGIEUSE”
-                                            <br>C. La Paz nº784 - Ingreso libre</p>
+                                        <p>Mayo. 10
+                                                <br>MÄDCHEN IN UNIFORM (MUCHACHAS DE
+                                                UNIFORME)
+                                                <br>Presentación de la película con subtítulos en
+                                                español.
+                                                <br>Lugar: ICBA - Hrs: 19:00
+                                                <br>Ingreso libre con aporte voluntario</p>
                                     </dd>
 
                                     <dt><i class="fas fa-caret-right text-brown"></i> KINDERSAMSTAG IM ICBA -
@@ -756,7 +755,7 @@ clean.
                                                 <br>Lugar: ICBA - Hrs: 10:00 a 12:00
                                                 <br>Ingreso: Bs. 10 niños / Bs. 5 padres</p>
                                     </dd>
-                                    
+
                                     <dt><i class="fas fa-caret-right text-brown"></i> NOCHE DE VINO AL CUENTO</dt>
                                     <dd>
                                         <p>Mayo 26
@@ -770,11 +769,10 @@ clean.
                                                 whatsapp 70368315</p>
                                     </dd>
                                 </dl>
-                               </article>   
+                                  
                             </div>
                         </div>
                     </div>
-<div class="bottom-border text-center"></div>
                 </div>
 
             </section>
